@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Body Styles */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Container Styling */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Custom Button */
+.btn-primary {
+  @apply bg-blue-600 text-white font-medium py-2 px-4 rounded-lg shadow hover:bg-blue-700;
+}
