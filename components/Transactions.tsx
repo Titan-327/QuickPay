@@ -11,7 +11,7 @@ export default function TransactionCard({ name, date, amount, status, type }: Tr
     const truncatedName = name.length > 18 ? name.substring(0, 18) + "..." : name;
 
     return (
-        <div className="m-3 flex justify-center items-center px-4 w-full"> {/* Centers the card */}
+        <div className="m-3 flex justify-center items-center px-3 w-auto"> {/* Centers the card */}
             <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl p-4 sm:p-5 rounded-xl bg-gray-800 border border-gray-700 transition-all duration-300 
                         drop-shadow-[0px_0px_10px_rgba(255,255,255,0.15)] hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,0.3)]
                         flex items-center justify-between">

@@ -60,7 +60,7 @@ export default async function TransactionsPage() {
     ].sort((a, b) => b.date.getTime() - a.date.getTime()); // Sort newest first
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen bg-black ">
             <div className="text-4xl mb-4 font-extrabold text-transparent bg-clip-text 
                 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 
                 drop-shadow-[0_0_20px_rgba(0,255,255,0.8)] 
