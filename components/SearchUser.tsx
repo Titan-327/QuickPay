@@ -72,7 +72,7 @@ if(loading){
             </div>
 
             {/* User List */}
-            <div className="mt-4 space-y-3">
+            <div className="flex flex-col items-center mt-4 space-y-3">
                 {filteredUsers.length > 0 ? (
                     filteredUsers.map((user) => (
                         <UserCard key={user.id} name={user?.name as string} email={user.email as string} />
