@@ -24,7 +24,7 @@ export default function TransactionCard({ name, date, amount, status, type }: Tr
                     <div className="ml-3">
                         <p className="text-xs sm:text-sm md:text-lg font-medium text-white">{truncatedName}</p>
                         <p className="text-[10px] sm:text-xs md:text-sm text-gray-400">
-                            {date.slice(0, 12)} {date.slice(13, 19)}
+                            {date.slice(0, 10)} {date.slice(11, 19)}
                         </p>
                     </div>
                 </div>
